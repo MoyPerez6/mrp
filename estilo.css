@@ -13,10 +13,8 @@ body {
   margin:auto;
   margin-right: 5%;	
 background: #12c2e9;  
-background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9); 
+background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
   
 	background-size: 400% 400%;
 	position: relative;
@@ -232,10 +230,12 @@ background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+
 }
 
 .caracteristicas {
-	color: black;
-    margin: 15px;
-    margin-top: 35px;
-    font-size: 40px;
+	width: 75%;
+  float: right;
+    color: black;
+    margin: center;
+    margin-top: 50px;
+    font-size: auto;
 }
 
 .caracteristicas h1 {
@@ -265,36 +265,39 @@ background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+
 }
 
 .ambicion img{
-	float: right;
-    height: 600px;
-    width: 600px;
-    margin-right: 40px;
+    float: left;
+    height: 400px;
+    width: 25%;
+    border-radius: 40px;
+    margin-bottom: 100px;
     filter: drop-shadow(-15px 6px 50px #7FFFD4);
 }
 
 .solo img{
-	float: left;
-    height: 600px;
-    width: 600px;
-    margin-right: 100px;
-    margin-left: 20px;
+	   float: left;
+    height: 400px;
+    width: 25%;
+    border-radius: 40px;
+    margin-bottom: 100px;
     filter: drop-shadow(-15px 6px 50px #FF8C00);
 }
 
 .control img{
-	float: right;
-	border-radius: 40px;
-    height: 600px;
-    width: 600px;
-    margin-right: 40px;
+	   float: left;
+    height: 400px;
+    width: 25%;
+    border-radius: 40px;
+    margin-bottom: 100px;
     filter: drop-shadow(-15px 6px 50px #778899);
 }
 
 .economia {
-	color: black;
-    margin: 15px;
-    margin-top: 35px;
-    font-size: 40px;
+	width: 75%;
+  float: right;
+    color: black;
+    margin: center;
+    margin-top: 50px;
+    font-size: auto;
 }
 
 .economia h1 {
@@ -325,27 +328,29 @@ background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+
 
 .codigo img{
     float: left;
+    height: 400px;
+    width: 25%;
     border-radius: 40px;
-    height: 700px;
-    width: 700px;
-    margin-right: 100px;
+    margin-bottom: 100px;
     filter: drop-shadow(-15px 6px 50px #FF69B4);
 
 }
 .comida img{
-    float: right;
+    float: left;
+    height: 400px;
+    width: 25%;
     border-radius: 40px;
-    height: 700px;
-    width: 700px;
-    margin-left: 50px;
+    margin-bottom: 100px;
 	filter: drop-shadow(-15px 6px 50px #FF69B4);
 }
 
 .vestimenta {
-	color: black;
-    margin: 15px;
-    margin-top: 35px;
-    font-size: 40px;
+	width: 75%;
+  float: right;
+    color: black;
+    margin: center;
+    margin-top: 50px;
+    font-size: auto;
 }
 
 .vestimenta h1 {
@@ -376,27 +381,29 @@ background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+
 
 .formal img{
     float: left;
+    height: 400px;
+    width: 25%;
     border-radius: 40px;
-    height: 700px;
-    width: 700px;
-    margin-right: 50px;
+    margin-bottom: 100px;
     filter: drop-shadow(-15px 6px 50px #008080);
 
 }
 .informal img{
-    float: right;
+    float: left;
+    height: 400px;
+    width: 25%;
     border-radius: 40px;
-    height: 700px;
-    width: 700px;
-    margin-left: 50px;
+    margin-bottom: 100px;
     filter: drop-shadow(-15px 6px 50px #008080);
 }
 
 .fin {
-	color: black;
-    margin: 15px;
-    margin-top: 35px;
-    font-size: 40px;
+	width: 75%;
+  float: right;
+    color: black;
+    margin: center;
+    margin-top: 50px;
+    font-size: auto;
 }
 
 .fin h1 {
@@ -430,20 +437,19 @@ background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+
 
 .inteligencia img{
     float: left;
+    height: 400px;
+    width: 25%;
     border-radius: 40px;
-    height: 800px;
-    width: 800px;
-    margin-right: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 	filter: drop-shadow(-15px 6px 50px #FF69B4);
 }
 
 .virus img{
-    float: right;
+    float: left;
+    height: 400px;
+    width: 25%;
     border-radius: 40px;
-    height: 700px;
-    width: 700px;
-    margin-left: 50px;
+    margin-bottom: 100px;
     filter: drop-shadow(-15px 6px 50px yellow);
 }
 
