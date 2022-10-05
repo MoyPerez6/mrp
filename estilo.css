@@ -1,0 +1,600 @@
+* {
+	padding: 0px;
+	margin: 0px;
+
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  padding: 3em;
+  width: 90%;
+	height: 100vh;
+  margin:auto;
+  margin-right: 5%;	
+background: #12c2e9;  
+background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9); 
+background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+  
+	background-size: 400% 400%;
+	position: relative;
+	animation: cambiar 2s ease-in-out infinite;
+}
+@keyframes cambiar {
+  0% {background-position: 0 50%; }
+  50% {background-position: 100% 50%; }
+  100%{background-position: 0 50%;}
+}
+
+.fondo {
+  margin: auto;
+  align-items: center;
+  margin-top: 50px;
+  width: auto;
+  height: auto;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.titulo {    
+    color: black;
+    font-size: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo h1 {
+	display: inline-block;
+	position: relative;
+    margin: 50px;
+}
+
+
+.titulo h1::after,.titulo h1::before{
+	content: '';
+	position: absolute;
+	width: 140px;
+	height: 10px;
+	background: black;
+	top:0.6em;
+	transform: scale(0);
+	transition: all 0.4s ease-in;
+}
+
+.titulo h1:hover::before, .titulo h1:hover::after {
+	transform: scale(1);
+}
+
+
+.titulo h1::before{
+	left: -160px;
+}
+
+
+.titulo h1::after{
+	right: -160px;
+}
+
+.subtitulo {
+    color: black;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: auto;
+}
+
+.subtitulo h1 {
+	display: inline-block;
+	position: relative;
+    margin: 50px;
+}
+.subtitulo h1::after,.subtitulo h1::before{
+	content: '';
+	position: absolute;
+	width: 140px;
+	height: 10px;
+	background: black;
+	top:0.6em;
+	transform: scale(0);
+	transition: all 0.4s ease-in;
+}
+
+.subtitulo h1:hover::before, .subtitulo h1:hover::after {
+	transform: scale(1);
+}
+
+.subtitulo h1::before{
+	left: -160px;
+}
+
+.subtitulo h1::after{
+	right: -160px;
+}
+
+.fondoCivilizacion{
+  margin: auto;
+  align-items: center;
+  margin-top: 50px;
+  width: auto;
+  height: auto;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+}
+
+.civilizacion {
+  width: 75%;
+  float: right;
+    color: black;
+    margin: center;
+    margin-top: 50px;
+    font-size: auto;
+}
+.civilizacion h1 {
+	display: inline-block;
+	position: relative;
+
+}
+
+.civilizacion h1::after,.civilizacion h1::before{
+	content: '';
+	position: absolute;
+	width: 140px;
+	height: 10px;
+	background: red;
+	top:0.6em;
+	transform: scale(0);
+	transition: all 0.4s ease-in;
+}
+.civilizacion h1:hover::before, .civilizacion h1:hover::after {
+	transform: scale(1);
+}
+.civilizacion h1::before{
+	left: -160px;
+}
+.civilizacion h1::after{
+	right: -160px;
+}
+
+.palacio img{
+    float: left;
+    height: 400px;
+    width: 25%;
+    border-radius: 40px;
+    margin-bottom: 100px;
+    filter: drop-shadow(-15px 6px 50px #00FFFF);
+}
+
+
+.fondoUbicacion{
+  margin: auto;
+  align-items: center;
+  margin-top: 50px;
+  width: auto;
+  height: auto;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+}
+
+.ubicacion {
+  width: 75%;
+  float: right;
+    color: black;
+    margin: center;
+    margin-top: 50px;
+    font-size: auto;
+}
+.ubicacion h1 {
+	display: inline-block;
+	position: relative;
+}
+
+.ubicacion h1::after,.ubicacion h1::before{
+	content: '';
+	position: absolute;
+	width: 140px;
+	height: 10px;
+	background: green;
+	top:0.6em;
+	transform: scale(0);
+	transition: all 0.4s ease-in;
+}
+.ubicacion h1:hover::before, .ubicacion h1:hover::after {
+	transform: scale(1);
+}
+.ubicacion h1::before{
+	left: -160px;
+}
+.ubicacion h1::after{
+	right: -160px;
+}
+
+.mapa img{
+	float: left;
+    height: 400px;
+    width: 25%;
+    border-radius: 40px;
+    margin-bottom: 100px;
+   	filter: drop-shadow(-15px 6px 50px #6B8E23);
+}
+
+.caracteristicas {
+	width: 75%;
+  float: right;
+    color: black;
+    margin: center;
+    margin-top: 50px;
+    font-size: auto;
+}
+
+.caracteristicas h1 {
+	display: inline-block;
+	position: relative;
+}
+
+.caracteristicas h1::after,.caracteristicas h1::before{
+	content: '';
+	position: absolute;
+	width: 140px;
+	height: 10px;
+	background: yellow;
+	top:0.6em;
+	transform: scale(0);
+	transition: all 0.4s ease-in;
+}
+.caracteristicas h1:hover::before, .caracteristicas h1:hover::after {
+	transform: scale(1);
+}
+.caracteristicas h1::before{
+	left: -160px;
+}
+.caracteristicas h1::after{
+	right: -160px;
+}
+
+.ambicion img{
+    float: left;
+    height: 400px;
+    width: 25%;
+    border-radius: 40px;
+    margin-bottom: 100px;
+    filter: drop-shadow(-15px 6px 50px #7FFFD4);
+}
+
+.solo img{
+	   float: left;
+    height: 400px;
+    width: 25%;
+    border-radius: 40px;
+    margin-bottom: 100px;
+    filter: drop-shadow(-15px 6px 50px #FF8C00);
+}
+
+.control img{
+	   float: left;
+    height: 400px;
+    width: 25%;
+    border-radius: 40px;
+    margin-bottom: 100px;
+    filter: drop-shadow(-15px 6px 50px #778899);
+}
+
+.economia {
+	width: 75%;
+  float: right;
+    color: black;
+    margin: center;
+    margin-top: 50px;
+    font-size: auto;
+}
+
+.economia h1 {
+	display: inline-block;
+	position: relative;
+}
+
+.economia h1::after,.economia h1::before{
+	content: '';
+	position: absolute;
+	width: 140px;
+	height: 10px;
+	background: red;
+	top:0.6em;
+	transform: scale(0);
+	transition: all 0.4s ease-in;
+}
+.economia h1:hover::before, .economia h1:hover::after {
+	transform: scale(1);
+}
+.economia h1::before{
+	left: -160px;
+}
+.economia h1::after{
+	right: -160px;
+}
+
+.codigo img{
+    float: left;
+    height: 400px;
+    width: 25%;
+    border-radius: 40px;
+    margin-bottom: 100px;
+    filter: drop-shadow(-15px 6px 50px #FF69B4);
+
+}
+.comida img{
+    float: left;
+    height: 400px;
+    width: 25%;
+    border-radius: 40px;
+    margin-bottom: 100px;
+	filter: drop-shadow(-15px 6px 50px #FF69B4);
+}
+
+.vestimenta {
+	width: 75%;
+  float: right;
+    color: black;
+    margin: center;
+    margin-top: 50px;
+    font-size: auto;
+}
+
+.vestimenta h1 {
+	display: inline-block;
+	position: relative;
+}
+
+.vestimenta h1::after,.vestimenta h1::before{
+	content: '';
+	position: absolute;
+	width: 140px;
+	height: 10px;
+	background: blue;
+	top:0.6em;
+	transform: scale(0);
+	transition: all 0.4s ease-in;
+}
+.vestimenta h1:hover::before, .vestimenta h1:hover::after {
+	transform: scale(1);
+}
+.vestimenta h1::before{
+	left: -160px;
+}
+.vestimenta h1::after{
+	right: -160px;
+}
+
+.formal img{
+    float: left;
+    height: 400px;
+    width: 25%;
+    border-radius: 40px;
+    margin-bottom: 100px;
+    filter: drop-shadow(-15px 6px 50px #008080);
+
+}
+.informal img{
+    float: left;
+    height: 400px;
+    width: 25%;
+    border-radius: 40px;
+    margin-bottom: 100px;
+    filter: drop-shadow(-15px 6px 50px #008080);
+}
+
+.fin {
+	width: 75%;
+  float: right;
+    color: black;
+    margin: center;
+    margin-top: 50px;
+    font-size: auto;
+}
+
+.fin h1 {
+	display: inline-block;
+	position: relative;
+}
+
+.fin h1::after,.fin h1::before{
+	content: '';
+	position: absolute;
+	width: 140px;
+	height: 10px;
+	background: #7FFFD4;
+	top:0.6em;
+	transform: scale(0);
+	transition: all 0.4s ease-in;
+}
+
+.fin h1:hover::before, .fin h1:hover::after {
+	transform: scale(1);
+}
+
+.fin h1::before{
+	left: -160px;
+}
+
+.fin h1::after{
+	right: -160px;
+}
+
+.inteligencia img{
+    float: left;
+    height: 400px;
+    width: 25%;
+    border-radius: 40px;
+    margin-bottom: 100px;
+	filter: drop-shadow(-15px 6px 50px #FF69B4);
+}
+
+.virus img{
+    float: left;
+    height: 400px;
+    width: 25%;
+    border-radius: 40px;
+    margin-bottom: 100px;
+    filter: drop-shadow(-15px 6px 50px yellow);
+}
+
+
+
+
+.contact_form{  
+  width: 460px; 
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #fbfbfb; 
+  padding-left: 30px; 
+}
+
+
+input{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+  float: center;  
+}
+
+
+button{
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #ab4493; 
+  border-color: #ab4493; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 420px;   
+  cursor: pointer;
+}
+
+
+button p{
+  color: #fff; 
+}
+
+
+span{
+  color: #ab4493; 
+}
+
+
+.aviso{
+  font-size: 13px;  
+  color: #0e0e0e;  
+}
+
+
+h3{
+  font-size: 39px;  
+  text-align: left;
+  padding-bottom: 20px; 
+  color: #ab4493;
+}
+
+
+h4{
+  font-size: 16px; 
+  padding-bottom: 30px;
+  color: #0e0e0e;   
+}
+
+
+p{
+  font-size: auto; 
+  color: #0e0e0e; 
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+
+.buttons {
+
+  min-width: 900px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons a {
+  text-decoration: none;
+  font-size: 38px;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  background: #314652;
+  color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  transition: all .4s ease-in-out;
+}
+
+.buttons a:hover {
+  transform: scale(1.2);
+}
