@@ -241,7 +241,6 @@ background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
 .caracteristicas h1 {
 	display: inline-block;
 	position: relative;
-    margin: 50px;
 }
 
 .caracteristicas h1::after,.caracteristicas h1::before{
@@ -303,7 +302,6 @@ background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
 .economia h1 {
 	display: inline-block;
 	position: relative;
-    margin: 50px;
 }
 
 .economia h1::after,.economia h1::before{
@@ -356,7 +354,6 @@ background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
 .vestimenta h1 {
 	display: inline-block;
 	position: relative;
-    margin: 50px;
 }
 
 .vestimenta h1::after,.vestimenta h1::before{
@@ -409,7 +406,6 @@ background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
 .fin h1 {
 	display: inline-block;
 	position: relative;
-    margin: 50px;
 }
 
 .fin h1::after,.fin h1::before{
